@@ -1,9 +1,4 @@
----
-layout: default
-title: Home
----
-
-# Welcome to My Jekyll Site
+# 기술적 고민에 대해 기록하는 블로그
 
 This is the main page of my Jekyll site.
 
