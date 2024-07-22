@@ -31,3 +31,46 @@ gem 'listen', '~> 3.0'
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+
+
+# jekyll theme 적용방법
+# 1. ruby 설치
+# bundle install
+#
+# 2. jekyll 설치
+# gem install jekyll
+# gem install bundler
+#
+# 3. github repository 생성
+# 그냥 껍데기만 만든다. 리포지토리 name은 tech-write.github.io 이런식으로 사이트 주소로 사용할 이름 만듦
+#
+# 4. 3에서 만든 github repository를 clone해서 로컬에 받아온다.
+#
+# 5. 설치된 로컬 폴더로 이동한다.
+#
+# 6. 다음 작업 수행
+# $ jekyll new ./
+# $ bundle install
+# $ bundle update
+# $ bundle install
+#
+# 위 과정에서 bundle할때 오류가 발생하면 다음 작업을 수행한다.
+# Gemfile > gem 'wdm' ~~ 로 되어 있는거 삭제하고 gem 'listen', '~> 3.0'으로 변경
+#
+# 이후 위 6번 작업 다시 수행 > 정상적으로 install까지 된다.
+#
+# 7. 로컬에서 jekyll 서버 띄워봄
+# bundle exec jekyll serve
+# -> 127.0.0.1:4000 으로 했을때 서버 띄워지면 정상적으로 수행된것
+#
+#
+# < 테마 적용 방법 >
+# 1. 테마 사이트로 이동
+# http://jekyllthemes.org/
+#
+# 2. 맘에 드는 테마 다운로드
+#
+# 3. _includes, _layouts, _sass, assets, styles.scss 파일만 복사해서 현재 프로젝트 폴더로 붙여넣기
+#
+# 4. 127.0.0.1:4000 으로 해당 페이지 다시 확인
+#
