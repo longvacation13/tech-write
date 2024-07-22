@@ -1,8 +1,16 @@
-# longvacation13의 IT Blog
+---
+layout: default
+title: Home
+---
 
-## 링크
+# Welcome to My Jekyll Site
 
-- [GitHub 리포지토리](https://github.com/longvacation13/)
-- [Tistory 블로그](https://longvacation13.tistory.com/)
-- [GitHub 블로그](https://longvacation13.github.io/techwrite/)
-- [네이버 블로그](https://blog.naver.com/longvacasion)
+This is the main page of my Jekyll site.
+
+- Item 1
+- Item 2
+- Item 3
+
+## About
+
+This site is powered by Jekyll and hosted on GitHub Pages.
